@@ -1,0 +1,106 @@
+
+/* // respnsive your site / */
+@media only screen and (max-width: 1590px){
+    /* <!-- // 2nd section start here  --> */
+   
+   .second-section .head{
+       flex-direction: column;
+   }
+  
+   /* <!-- // 2nd section end here  --> */
+  
+    /* <!--/ work experience section start  --> */
+    .work{
+       /* background-color: aqua; */
+       height: 160vh;
+    }
+    .work .line {
+       height: 130vh;
+       width: 2px;
+       display: flex;
+       flex-direction: column;
+   }
+   .vertical {
+       width: 90px;
+       height: 1px;
+       margin: 120px 0px;
+   }
+   .image-top{
+       width: 23px;
+       position: relative;
+       top: -15px;
+       left: -25px; 
+   }
+   .vertical-title{
+       top: -39px; 
+       left: 95px;
+   }
+   .vertical-description{
+       top: -23px;
+       left: 100px;
+   }
+   /* <!--/ work experience section end  --> */
+}
+
+@media only screen and (max-width: 1190px){
+    /* nav abr responsiveness  */
+    .nav-bar{
+        height: 680px;
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+    }
+    .left-nav{
+        flex-direction: column;
+    }
+    .right-nav{
+        width: 30%;
+        text-align: center;
+    }
+    #search{
+        width: 95%;
+    }
+    .burger{
+        display: block;
+    }
+    .nav-bar-resp{
+        height: 72px;
+    }
+    .left-nav-resp{
+        opacity: 0;
+    }
+    .right-nav-resp{
+        opacity: 0;
+    }
+
+    /* // first section responsiveness */
+    .main-box{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .right-side img {
+        margin-top: 16rem;
+        margin-bottom: -4rem;
+    }
+    /* <!-- // 2nd section start here  --> */
+    .second-section{
+        margin-top: 23px;
+        flex-direction: column;
+    }
+    .second-sec-para {
+        padding: 0px;
+    }
+    .head{
+        margin: 37px auto;
+        padding: 0px 65px;
+    }
+  
+   
+    /* <!-- // 2nd section end here  --> */
+
+}
+
+@media only screen and (max-width: 876px){
+    /* <!-- // 2nd section start here  --> */
+   
+
+}
